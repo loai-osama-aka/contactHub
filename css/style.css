@@ -1,0 +1,478 @@
+:root {
+    --main-color: rgb(127, 34, 254);
+
+}
+
+body {
+    background-color: rgb(245, 250, 251);
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.blue-color {
+    color: rgb(43, 127, 255);
+}
+
+.pink-color {
+    color: rgb(238, 0, 39);
+}
+
+
+.orange-color {
+    color: rgb(255, 134, 0);
+}
+
+.green-color {
+    color: rgb(0, 153, 102);
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.bg-green {
+    background-color: rgb(225, 248, 237);
+}
+
+.pink-bg {
+    background-color: rgb(238, 0, 39);
+}
+
+.light-red-bg {
+    background-color: rgb(255, 241, 242);
+}
+
+.orange-bg {
+    background-color: rgb(255, 105, 0);
+}
+
+.blue-bg {
+    background-color: rgb(31, 110, 255);
+
+}
+
+.light-blue-bg {
+    background-color: rgb(219, 234, 254);
+
+}
+
+.bg-purple {
+    background-color: rgb(237, 233, 254);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 251, 235);
+}
+
+/*Start of navbar */
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.nav-logo {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(123deg, rgb(125, 36, 254) 22%, rgb(112, 59, 186));
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+
+}
+
+.add-btn {
+    padding: 10px 15px;
+    background: linear-gradient(123deg, var(--main-color) 22%, rgb(84, 56, 247));
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.add-btn:hover {
+    transform: translate(0px, -5px);
+    -webkit-transform: translate(0px, -5px);
+    -moz-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    -o-transform: translate(0px, -5px);
+    box-shadow: rgba(125, 36, 254, 0.6) 0px 4px 6px;
+}
+
+.nav-icons {
+    color: gray;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.nav-icons:hover {
+    color: black;
+    background-color: rgb(243, 244, 246);
+
+}
+
+.nav-img {
+    width: 40px;
+}
+
+/*End of navbar */
+
+/* start of total & fav & emergency section */
+.no-contacts {
+    background-color: rgb(243, 244, 246);
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    color: rgb(209, 213, 219);
+}
+
+.no-contacts~p {
+    color: rgb(153, 161, 175);
+}
+
+.items {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.items:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.items-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: rgba(43, 127, 255, 0.1) 0px 10px 6px -1px, rgba(43, 127, 255, 0.06) 0px 2px 4px -1px;
+
+}
+
+.total {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+/* all contact */
+
+.form-control:focus {
+    box-shadow: 0 0 0 2px rgba(125, 36, 254, 0.25);
+    border-color: rgba(125, 36, 254, 0.25);
+}
+
+/* contact cards */
+.inner {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.inner:hover {
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 8px;
+
+
+}
+
+.first-letter {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, rgb(252, 143, 0), rgb(251, 44, 54));
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.fav-badge {
+    width: 20px;
+    height: 20px;
+    font-size: .6rem;
+    border: 2px solid white;
+    top: -5px;
+    right: -5px;
+}
+
+.emrg-badge {
+    width: 20px;
+    height: 20px;
+    font-size: .6rem;
+    border: 2px solid white;
+    bottom: -5px;
+    right: -5px;
+
+}
+
+.phone-icon {
+    width: 25px;
+    height: 25px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.mail-icon{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+/* footer card section */
+.footer-inner {
+    background-color: rgb(240, 241, 241);
+}
+
+.footer-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-inner .phone-icon:hover {
+    background-color: rgb(196, 248, 222);
+}
+
+.footer-inner .mail-icon:hover {
+    background-color: rgb(226, 221, 252);
+    color: rgb(255, 185, 0);
+}
+
+.edit {
+    color: gray;
+}
+
+.edit:hover {
+    background-color: rgb(242, 239, 253);
+    color: var(--main-color);
+
+}
+
+.delete {
+    color: gray;
+}
+
+.delete:hover {
+    background-color: rgb(255, 226, 228);
+    color: red;
+}
+
+.favorite-add {
+    color: gray;
+
+}
+
+.favorite-add:hover {
+    color: rgb(255, 185, 0);
+    background-color: rgb(243, 244, 246);
+}
+
+.emergency-add {
+    color: gray;
+}
+
+.emergency-add:hover {
+    color: red;
+    background-color: rgb(243, 244, 246);
+
+}
+
+.action-btns .btn.favorite:hover {
+    background-color: rgb(254, 243, 198);
+
+}
+
+.action-btns .btn.emergency:hover {
+    background-color: rgb(255, 226, 228);
+
+}
+
+/* fav contacts card */
+.favorite-contacts,
+.emergency-contacts {
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+
+.fav-header {
+    background-color: rgb(255, 248, 237);
+}
+
+.fav-body a {
+    border: 1px solid rgb(219, 216, 216);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.fav-body a:hover {
+    background-color: rgb(255, 251, 235);
+    border: 1px solid rgb(251, 221, 114);
+}
+
+
+
+.emerg-header {
+    background-color: rgb(254, 241, 242);
+}
+
+.emerg-body a {
+    border: 1px solid rgb(219, 216, 216);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.emerg-body a:hover {
+    background-color: rgb(255, 241, 242);
+    border: 1px solid rgb(249, 166, 171);
+}
+
+.emerg-body .fa-phone {
+    background-color: rgb(255, 228, 230);
+    color: rgb(236, 0, 63);
+}
+
+/* add contact layer */
+.addContact-inner-layer {
+    max-height: 90vh;
+    scrollbar-width: none;
+    width: 450px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.btn-close-white {
+    color: gray;
+}
+
+.btn-close-white:focus {
+    border: 1px solid black;
+}
+
+.btn-close-white:hover {
+    background-color: rgb(243, 244, 246);
+    color: rgb(74, 85, 101);
+}
+
+.contact-pic {
+    background-image: linear-gradient(120deg, rgb(69, 151, 255), rgb(45, 125, 255));
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.change-pic {
+    cursor: pointer;
+    background-color: rgb(241, 242, 244);
+}
+
+.change-pic:hover {
+    background-color: rgb(229, 231, 235);
+}
+
+.resize-none {
+    resize: none;
+}
+
+.form-check-input,
+.form-check-label {
+    cursor: pointer;
+
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.save-contact-btn {
+    background-image: linear-gradient(90deg, rgb(127, 35, 254)40%, rgb(80, 57, 246));
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    padding: 10px;
+}
+
+.save-contact-btn:hover {
+    box-shadow: 0px 5px 10px rgba(127, 35, 254, .3);
+}
+
+.close-btn {
+    background-color: rgb(243, 244, 247);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    padding: 10px;
+}
+
+.close-btn:hover {
+    background-color: rgb(229, 231, 235);
+}
+
+/* group select  */
+.group-badge.family {
+    background-color: rgb(219, 234, 254);
+    color: rgb(20, 71, 230);
+
+    width: 60px;
+    height: 30px;
+
+}
+
+.group-badge.friends {
+    background-color: rgb(220, 252, 231);
+    color: rgb(0, 130, 53);
+    width: 60px;
+    height: 30px;
+}
+
+.group-badge.work {
+    background-color: rgb(243, 232, 255);
+    color: rgb(130, 0, 219);
+    width: 60px;
+    height: 30px;
+}
+
+.group-badge.school {
+    background-color: rgb(254, 243, 198);
+    color: rgb(187, 77, 0);
+    width: 60px;
+    height: 30px;
+}
+
+.group-badge.other {
+    background-color: rgb(243, 244, 246);
+    color: rgb(54, 65, 83);
+    width: 60px;
+    height: 30px;
+}
